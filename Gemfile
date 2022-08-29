@@ -25,6 +25,7 @@ gem 'net-smtp', require: false
 
 gem "httparty"
 gem 'bootstrap', '~> 5.0.1'
+gem 'font-awesome-rails'
 
 
 
