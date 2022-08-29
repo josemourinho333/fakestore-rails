@@ -1,0 +1,17 @@
+<% @products.each do |product| %>
+  
+  <div id="<%= product["id"] %>" class="card">
+    <img src="<%= product["image"] %>" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h6 class="card-subtitle mb-2 text-muted"><%= product["category"] %></h6>
+      <h5 class="card-title"><%= product["title"].first(40)... %></h5>
+      <div> 
+        <h5 class="card-price">$<%= product["price"] %></h5>
+        <a href="#" class="card-link btn btn-success">Add</a>
+      </div>
+    </div>
+  </div>
+
+
+<% end %>
+

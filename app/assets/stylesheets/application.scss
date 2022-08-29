@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap";
+
+ body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  .main {
+    display: grid;
+    grid-template-columns: 250px repeat(3, 1fr) 250px;
+    row-gap: 1rem;
+  }
+ }

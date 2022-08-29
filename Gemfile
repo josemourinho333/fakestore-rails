@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'net-smtp', require: false
 
 gem "httparty"
+gem 'bootstrap', '~> 5.0.1'
+
 
 
 # Use Active Storage variant

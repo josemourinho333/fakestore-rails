@@ -1,3 +1,15 @@
-<h1>Home</h1>
-<p>Hello</p>
-<div> <%= @products.length()  %></div>
+<div class="container-fluid hero-container">
+  <div class="hero-img">
+    <img src="https://freshcart.codescandy.com/assets/images/slider/slide-1.jpg" alt="hero-img">
+  </div>
+  <div class="hero-text">
+    <div class="content">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, soluta.
+    </div>
+    <button>Button</button>
+  </div>
+</div>
+
+<div class="container-fluid products-container">
+   <%= render partial:"product", object: @products %>
+</div>
