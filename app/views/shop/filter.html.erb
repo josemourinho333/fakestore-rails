@@ -8,6 +8,10 @@
     <%= link_to "Jewelery", shop_filter_path(:filterBy => 'jewelery'), class: 'btn btn-dark text-decoration-none text-white' %>
     <%= link_to "Electronics", shop_filter_path(:filterBy => 'electronics'), class: 'btn btn-dark text-decoration-none text-white' %>
   </div>
+  <div class="btn-group sort-filter" role="group" aria-label="Basic example">
+    <%= link_to "Asc", request.params.merge(:sort => "asc"), class: 'btn btn-dark text-decoration-none text-white' %>
+    <%= link_to "Desc", request.params.merge(:sort => "desc"), class: 'btn btn-dark text-decoration-none text-white' %>
+  </div>
 </div>
 
 <div class="container-fluid products-container">

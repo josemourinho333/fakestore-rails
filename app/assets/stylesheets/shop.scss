@@ -10,4 +10,6 @@
 .shop-product-filter-container {
   grid-area: 2 / 2 / 3 / 5;
   font-weight: 700;
+  display: flex;
+  justify-content: space-between;
 }

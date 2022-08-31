@@ -86,7 +86,7 @@
   margin: 2rem 0;
   grid-area: 1 / 2 / 2 / 5;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr max-content;
   align-items: center;
   justify-items: center;
@@ -95,12 +95,13 @@
     grid-area: 1 / 1 / 2 / 3;
     text-align: center;
     img { 
-      width: 75%;
+      height: auto;
+      width: 300px;
     }
   }
 
   .product-info {
-    grid-area: 1 / 3 / 2 / 4;
+    grid-area: 1 / 3 / 2 / 5;
     .product-price {
       font-weight: 700;
       margin: 1rem 0;
