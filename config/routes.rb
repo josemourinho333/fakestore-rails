@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   get 'home/show', to: 'home#show'
   get 'shop', to: 'shop#all'
   get 'shop/filter', to: 'shop#filter'
-  get 'shop/sort', to: 'shop#sort'
+  get 'about', to: 'about#index'
 
 end
